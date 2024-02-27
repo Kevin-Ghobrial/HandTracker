@@ -7,6 +7,7 @@ import platform
 count = 0
 count2 = 0
 count3 = 0
+
 def change_volume(direction):
     # Adjust volume using osascript (macOS specific)
     if platform.system() == 'Darwin':
